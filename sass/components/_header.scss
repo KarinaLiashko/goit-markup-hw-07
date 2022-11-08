@@ -1,0 +1,144 @@
+.header-container {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-container__nav {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 93px;
+}
+
+.header-container__nav a {
+    display: block;
+}
+
+.header-container__menu {
+    display: flex;
+    gap: 50px;
+}
+
+.header-container__nav-contacts {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 344px;
+}
+
+.header-container__list {
+    position: relative;
+}
+.header-container__link {
+    color: var(--color-secondary);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style: none;
+    padding: 32px 0;
+    transition: opacity 250ms cubic-bezier(0.4,
+            0,
+            0.2,
+            1), visibility 250ms cubic-bezier(0.4,
+            0,
+            0.2,
+            1);
+    transition-property: color;
+}
+
+.header-container__link:hover {
+    color: var(--color-brand);
+    text-decoration: none;
+}
+
+.header-container__link:focus {
+    color: var(--color-brand);
+    text-decoration: none;
+}
+
+.header-container__contact-link {
+    color: var(--color-primary);
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    margin: auto;
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    transition: opacity 250ms cubic-bezier(0.4,
+            0,
+            0.2,
+            1), visibility 250ms cubic-bezier(0.4,
+            0,
+            0.2,
+            1);
+    transition-property: color;
+}
+
+.header-container__contact-link:hover {
+    color: var(--color-brand);
+    text-decoration: none;
+}
+
+.header-container__contact-link:focus {
+    color: var(--color-brand);
+    text-decoration: none;
+}
+
+.header-container__envelope {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    fill: var(--color-primary);
+    margin-right: 10px;
+    transition: opacity 250ms cubic-bezier(0.4,
+            0,
+            0.2,
+            1), visibility 250ms cubic-bezier(0.4,
+            0,
+            0.2,
+            1);
+    transition-property: fill;
+}
+
+.header-container__contact-link:hover .header-container__envelope {
+    fill: var(--color-brand);
+}
+
+.header-container__contact-link:focus .header-container__envelope {
+    fill: var(--color-brand);
+}
+
+.header-container__smartphone {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    fill: var(--color-primary);
+    margin-right: 10px;
+    transition: opacity 250ms cubic-bezier(0.4,
+            0,
+            0.2,
+            1), visibility 250ms cubic-bezier(0.4,
+            0,
+            0.2,
+            1);
+    transition-property: fill;
+}
+
+.header-container__contact-link:hover .header-container__smartphone {
+    fill: var(--color-brand);
+}
+
+.header-container__contact-link:focus .header-container__smartphone {
+    fill: var(--color-brand);
+}
