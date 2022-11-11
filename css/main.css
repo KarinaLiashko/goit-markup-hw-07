@@ -417,7 +417,7 @@ img {
   left: 0;
 }
 
-.header-container {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -430,7 +430,7 @@ img {
   gap: 50px;
 }
 
-.header-container__nav {
+.header__nav {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -446,18 +446,18 @@ img {
   gap: 93px;
 }
 
-.header-container__nav a {
+.header__nav a {
   display: block;
 }
 
-.header-container__menu {
+.header__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 50px;
 }
 
-.header-container__nav-contacts {
+.header__nav-contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -470,11 +470,11 @@ img {
   gap: 344px;
 }
 
-.header-container__list {
+.header__list {
   position: relative;
 }
 
-.header-container__link {
+.header__link {
   color: var(--color-secondary);
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -490,16 +490,16 @@ img {
   -webkit-transition-property: color;
   transition-property: color;
 }
-.header-container__link:hover {
+.header__link:hover {
   color: var(--color-brand);
   text-decoration: none;
 }
-.header-container__link:focus {
+.header__link:focus {
   color: var(--color-brand);
   text-decoration: none;
 }
 
-.header-container__contact-link {
+.header__contact-link {
   color: var(--color-primary);
   text-decoration: none;
   list-style: none;
@@ -520,28 +520,28 @@ img {
   -webkit-transition-property: color;
   transition-property: color;
 }
-.header-container__contact-link:hover {
+.header__contact-link:hover {
   color: var(--color-brand);
   text-decoration: none;
 }
-.header-container__contact-link:focus {
+.header__contact-link:focus {
   color: var(--color-brand);
   text-decoration: none;
 }
-.header-container__contact-link:hover .header-container__envelope {
+.header__contact-link:hover .header-container__envelope {
   fill: var(--color-brand);
 }
-.header-container__contact-link:focus .header-container__envelope {
+.header__contact-link:focus .header-container__envelope {
   fill: var(--color-brand);
 }
-.header-container__contact-link:hover .header-container__smartphone {
+.header__contact-link:hover .header-container__smartphone {
   fill: var(--color-brand);
 }
-.header-container__contact-link:focus .header-container__smartphone {
+.header__contact-link:focus .header-container__smartphone {
   fill: var(--color-brand);
 }
 
-.header-container__envelope {
+.header__envelope {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -559,7 +559,7 @@ img {
   transition-property: fill;
 }
 
-.header-container__smartphone {
+.header__smartphone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1274,20 +1274,43 @@ span > .logo-white {
   fill: black;
 }
 
+.contact-form {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .contact-form__label {
+  display: block;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--color-primary);
   width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact-form__textarea-label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--color-primary);
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .contact-form__control {
   position: relative;
   display: block;
   width: 100%;
-  margin-top: 4px;
-  margin-bottom: 10px;
 }
 .contact-form__control:focus-within .contact-form__icon {
   fill: var(--color-brand);
@@ -1299,10 +1322,11 @@ span > .logo-white {
 }
 
 .contact-form__input {
+  position: relative;
   width: 100%;
   height: 40px;
   padding: 12px 16px 12px 42px;
-  /* padding-right: 12px; */
+  margin-top: 4px;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.1em;
@@ -1337,7 +1361,7 @@ span > .logo-white {
   padding: 12px 16px;
   outline: none;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-top: 4px;
 }
 .contact-form__textarea:focus {
   border-color: var(--color-brand);

@@ -20,36 +20,36 @@
 
 <body>
     <header class="header">
-        <div class="container header-container">
-            <nav class="header-container__nav">
+        <div class="container header__container">
+            <nav class="header__nav">
                 <a href="./index.html" class="logo-link"><span class="logo-accent">Web</span><span
                         class="logo">Studio</span>
                 </a>
-                <ul class="header-container__menu">
-                    <li class="header-container__list">
-                        <a href="./index.html" class="header-container__link current-link">Студія</a>
+                <ul class="header__menu">
+                    <li class="header__list">
+                        <a href="./index.html" class="header__link current-link">Студія</a>
                     </li>
-                    <li class="header-container__list">
-                        <a href="./portfolio.html" class="header-container__link">Портфоліо</a>
+                    <li class="header__list">
+                        <a href="./portfolio.html" class="header__link">Портфоліо</a>
                     </li>
-                    <li class="header-container__list">
-                        <a href="#" class="header-container__link">Контакти</a>
+                    <li class="header__list">
+                        <a href="#" class="header__link">Контакти</a>
                     </li>
                 </ul>
             </nav>
-            <nav class="header-container__nav-contacts">
-                <ul class="header-container__menu">
+            <nav class="header__nav-contacts">
+                <ul class="header__menu">
                     <li>
-                        <a href="mailto:info@devstudio.com" class="header-container__contact-link">
-                            <svg class="header-container__envelope" width="16" height="12">
+                        <a href="mailto:info@devstudio.com" class="header__contact-link">
+                            <svg class="header__envelope" width="16" height="12">
                                 <use href="./images/icons.svg#icon-envelope">
                                 </use>
                             </svg>
                             info@devstudio.com</a>
                     </li>
                     <li>
-                        <a href="tel:+380961111111" class="header-container__contact-link">
-                            <svg class="header-container__smartphone" width="10" height="16">
+                        <a href="tel:+380961111111" class="header__contact-link">
+                            <svg class="header__smartphone" width="10" height="16">
                                 <use href="./images/icons.svg#icon-smartphone">
                                 </use>
                             </svg>
@@ -380,8 +380,7 @@
             </button>
             <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
             <form name="contact-form">
-                <label class="contact-form__label" for="person-name">Ім'я
-                    <span class="contact-form__control">
+                <label class="contact-form__label" for="person-name">Ім'я<span class="contact-form__control">
                         <input class="contact-form__input" id="person-name" type="text" name="person-name" minlength="2"
                             maxlength="10" required />
                         <svg class="contact-form__icon" width="18" height="18">
@@ -389,24 +388,22 @@
                         </svg>
                     </span>
                 </label>
-                <label class="contact-form__label" for="phone-number">Телефон
-                    <span class="contact-form__control">
+                <label class="contact-form__label" for="phone-number">Телефон<span class="contact-form__control">
                         <input class="contact-form__input" id="phone-number" type="text" name="phone-number" required />
                         <svg class="contact-form__icon" width="18" height="18">
                             <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
                         </svg>
                     </span>
                 </label>
-                <label class="contact-form__label" for="email">Пошта
-                    <span class="contact-form__control">
+                <label class="contact-form__label" for="email">Пошта<span class="contact-form__control">
                         <input class="contact-form__input" id="email" type="text" name="email" />
                         <svg class="contact-form__icon" width="18" height="18">
                             <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                         </svg>
                     </span>
                 </label>
-                <label class="contact-form__label textarea" for="person-comment">Коментар
-                    <span class="contact-form__control">
+                <label class="contact-form__textarea-label" for="person-comment">Коментар<span
+                        class="contact-form__control">
                         <textarea class="contact-form__textarea" id="person-comment" name="person-comment"
                             placeholder="Введіть текст"></textarea>
                     </span></label>

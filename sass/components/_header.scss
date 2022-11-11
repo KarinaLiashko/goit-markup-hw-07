@@ -1,11 +1,11 @@
-.header-container {
+.header__container {
     display: flex;
     flex-grow: 1;
     align-items: center;
     gap: 50px;
 }
 
-.header-container__nav {
+.header__nav {
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -13,26 +13,26 @@
     gap: 93px;
 }
 
-.header-container__nav a {
+.header__nav a {
     display: block;
 }
 
-.header-container__menu {
+.header__menu {
     display: flex;
     gap: 50px;
 }
 
-.header-container__nav-contacts {
+.header__nav-contacts {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     gap: 344px;
 }
 
-.header-container__list {
+.header__list {
     position: relative;
 }
-.header-container__link {
+.header__link {
     color: var(--color-secondary);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -63,7 +63,7 @@
     text-decoration: none;
 }
 }
-.header-container__contact-link {
+.header__contact-link {
     color: var(--color-primary);
     text-decoration: none;
     list-style: none;
@@ -110,7 +110,7 @@
     fill: var(--color-brand);
 }
 }
-.header-container__envelope {
+.header__envelope {
     display: flex;
     align-items: center;
     justify-content: baseline;
@@ -126,7 +126,7 @@
     transition-property: fill;
 }
 
-.header-container__smartphone {
+.header__smartphone {
     display: flex;
     align-items: center;
     justify-content: baseline;
