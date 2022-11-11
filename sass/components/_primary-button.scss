@@ -26,16 +26,16 @@
             0.2,
             1);
     transition-property: color, background-color;
-}
 
-.primary-button:hover {
+&:hover {
     color: var(--color-inverted);
     background-color: #188ce8;
 }
 
-.primary-button:focus {
+&:focus {
     color: var(--color-inverted);
     background-color: #188ce8;
+}
 }
 
 .form-button-icon {

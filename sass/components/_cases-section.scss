@@ -3,27 +3,17 @@
     padding-top: 0;
 }
 
-.list-title {
-    color: var(--color-secondary);
-    font-family: 'Roboto', inherit;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    padding-bottom: 50px;
-}
-
-.list-title__cards {
+.what-we-do {
     display: flex;
     gap: 30px;
 }
 
-.cases {
+.what-we-do__item {
     position: relative;
+    width: calc(100%/3 - 30px/3*2);
 }
-.cases__text {
+
+.what-we-do__text {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;

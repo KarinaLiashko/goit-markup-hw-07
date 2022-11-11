@@ -1,8 +1,8 @@
-.subscription-field {
+.subscription {
     margin: 0 auto;
 }
 
-.subscription-field__title {
+.subscription__title {
     display: flex;
     margin-top: 0;
     margin-bottom: 20px;
@@ -14,14 +14,14 @@
     color: var(--color-inverted);
 }
 
-.subscription-field__space {
+.subscription__space {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 12px;
 }
 
-.subscription-field__input {
+.subscription__input {
     justify-content: space-between;
     display: flex;
     width: 358px;
@@ -46,12 +46,13 @@
             0.2,
             1);
     transition-property: border-color;
-}
 
-.subscription-field__input:focus {
+
+&:focus {
     border-color: var(--color-brand);
 }
 
-.subscription-field__input:hover {
+&:hover {
     border-color: var(--color-brand);
+}
 }

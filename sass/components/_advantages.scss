@@ -1,10 +1,10 @@
-.list-advantages {
+.advantages {
     display: flex;
     gap: 30px;
     justify-content: space-between;
 }
 
-.list-advantages__field {
+.advantages__field {
     /* width: 270; */
     height: 120px;
     background-color: var(--color-background-light);
@@ -15,14 +15,14 @@
     align-items: center;
 }
 
-.list-advantages__icon {
+.advantages__icon {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 25 100;
 }
 
-.list-advantages__subtitle {
+.advantages__title {
     width: 270px;
     /* flex-basis: calc((100% - 90px) / 4); */
     color: var(--color-secondary);
@@ -36,7 +36,7 @@
     padding-bottom: 10px;
 }
 
-.list-advantages__text {
+.advantages__text {
     width: 270px;
     /* flex-basis: calc((100% - 90px) / 4); */
     color: var(--color-primary);

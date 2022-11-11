@@ -11,24 +11,24 @@
     right: 8px;
     cursor: pointer;
     background-color: var(--color-background);
+
+
+&:focus {
+    color: var(--color-brand);
 }
 
+&:focus-within .close-button__icon {
+    fill: var(--color-brand);
+}
+
+&:hover {
+    color: var(--color-brand);
+}
+
+&:hover .close-button__icon {
+    fill: var(--color-brand);
+}
+}
 .close-button__icon {
     fill: black
-}
-
-.close-button:focus {
-    color: var(--color-brand);
-}
-
-.close-button:focus-within .close-button__icon {
-    fill: var(--color-brand);
-}
-
-.close-button:hover {
-    color: var(--color-brand);
-}
-
-.close-button:hover .close-button__icon {
-    fill: var(--color-brand);
 }

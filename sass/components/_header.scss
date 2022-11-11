@@ -51,18 +51,18 @@
             0.2,
             1);
     transition-property: color;
-}
 
-.header-container__link:hover {
+
+&:hover {
     color: var(--color-brand);
     text-decoration: none;
 }
 
-.header-container__link:focus {
+&:focus {
     color: var(--color-brand);
     text-decoration: none;
 }
-
+}
 .header-container__contact-link {
     color: var(--color-primary);
     text-decoration: none;
@@ -83,18 +83,33 @@
             0.2,
             1);
     transition-property: color;
-}
 
-.header-container__contact-link:hover {
+
+&:hover {
     color: var(--color-brand);
     text-decoration: none;
 }
 
-.header-container__contact-link:focus {
+&:focus {
     color: var(--color-brand);
     text-decoration: none;
 }
+&:hover .header-container__envelope {
+    fill: var(--color-brand);
+}
 
+&:focus .header-container__envelope {
+    fill: var(--color-brand);
+}
+
+&:hover .header-container__smartphone {
+    fill: var(--color-brand);
+}
+
+&:focus .header-container__smartphone {
+    fill: var(--color-brand);
+}
+}
 .header-container__envelope {
     display: flex;
     align-items: center;
@@ -111,14 +126,6 @@
     transition-property: fill;
 }
 
-.header-container__contact-link:hover .header-container__envelope {
-    fill: var(--color-brand);
-}
-
-.header-container__contact-link:focus .header-container__envelope {
-    fill: var(--color-brand);
-}
-
 .header-container__smartphone {
     display: flex;
     align-items: center;
@@ -133,12 +140,4 @@
             0.2,
             1);
     transition-property: fill;
-}
-
-.header-container__contact-link:hover .header-container__smartphone {
-    fill: var(--color-brand);
-}
-
-.header-container__contact-link:focus .header-container__smartphone {
-    fill: var(--color-brand);
 }

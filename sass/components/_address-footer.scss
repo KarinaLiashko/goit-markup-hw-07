@@ -21,15 +21,13 @@
             0.2,
             1);
     transition-property: color;
-}
 
-.address-list__address:hover {
+&:hover,
+&:focus
+{ 
     color: var(--color-brand);
     text-decoration: none;
 }
-
-.address-list__address:focus {
-    color: var(--color-brand);
 }
 
 .address-list__contact {
@@ -50,13 +48,11 @@
             0.2,
             1);
     transition-property: color;
-}
 
-.address-list__contact:hover {
+&:hover,
+&:focus
+ {
     color: var(--color-brand);
     text-decoration: none;
 }
-
-.address-list__contact:focus {
-    color: var(--color-brand);
 }

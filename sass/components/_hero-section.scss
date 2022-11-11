@@ -12,12 +12,6 @@
     background-position: center;
 }
 
-.section-hero__container {
-    display: inline-block;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .section-hero__title {
     color: var(--color-inverted);
     background-color: var(--color-secondary-background);
@@ -29,6 +23,6 @@
     line-height: 1.36;
     letter-spacing: 0.06em;
     padding-bottom: 0px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
     max-width: 696px;
 }
