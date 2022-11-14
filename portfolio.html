@@ -20,36 +20,36 @@
 
 <body>
     <header class="header">
-        <div class="container header-container">
-            <nav class="header-container__nav">
+        <div class="container header__container">
+            <nav class="header__nav">
                 <a href="./index.html" class="logo-link"><span class="logo-accent">Web</span><span
                         class="logo">Studio</span>
                 </a>
-                <ul class="header-container__menu">
-                    <li class="header-container__list">
-                        <a href="./index.html" class="header-container__link ">Студія</a>
+                <ul class="header__menu">
+                    <li class="header__list">
+                        <a href="./index.html" class="header__link">Студія</a>
                     </li>
-                    <li class="header-container__list">
-                        <a href="./portfolio.html" class="header-container__link current-link">Портфоліо</a>
+                    <li class="header__list">
+                        <a href="./portfolio.html" class="header__link current-link">Портфоліо</a>
                     </li>
-                    <li class="header-container__list">
-                        <a href="#" class="header-container__link">Контакти</a>
+                    <li class="header__list">
+                        <a href="#" class="header__link">Контакти</a>
                     </li>
                 </ul>
             </nav>
-            <nav class="header-container__nav-contacts">
-                <ul class="header-container__menu">
+            <nav class="header__nav-contacts">
+                <ul class="header__menu">
                     <li>
-                        <a href="mailto:info@devstudio.com" class="header-container__contact-link">
-                            <svg class="header-container__envelope" width="16" height="12">
+                        <a href="mailto:info@devstudio.com" class="header__contact-link">
+                            <svg class="header__envelope" width="16" height="12">
                                 <use href="./images/icons.svg#icon-envelope">
                                 </use>
                             </svg>
                             info@devstudio.com</a>
                     </li>
                     <li>
-                        <a href="tel:+380961111111" class="header-container__contact-link">
-                            <svg class="header-container__smartphone" width="10" height="16">
+                        <a href="tel:+380961111111" class="header__contact-link">
+                            <svg class="header__smartphone" width="10" height="16">
                                 <use href="./images/icons.svg#icon-smartphone">
                                 </use>
                             </svg>
@@ -259,35 +259,39 @@
                 <div class="social-media-container">
                     <h2 class="social-media-container__title">Приєднуйтесь</h2>
                     <ul class="social-media-list">
-                        <li class="social-media-list__icons"> <a href="#" class="social-media-list__link">
-                                <svg class="social-media-list__icon" width="20" height="20">
+                        <li class="socials__item socials__item--dark"> <a href="#"
+                                class="socials__link socials__link--dark">
+                                <svg class="social-icons__image social-icons__image--dark" width="20" height="20">
                                     <use href="./images/icons.svg#icon-instagram-1">
                                     </use>
                                 </svg></a>
                         </li>
-                        <li class="social-media-list__icons"> <a href="#" class="social-media-list__link"> <svg
-                                    class="social-media-list__icon" width="20" height="20">
+                        <li class="socials__item socials__item--dark"> <a href="#"
+                                class="socials__link socials__link--dark">
+                                <svg class="social-icons__image social-icons__image--dark" width="20" height="20">
                                     <use href="./images/icons.svg#icon-twitter-1"></use>
                                 </svg></a>
                         </li>
-                        <li class="social-media-list__icons"> <a href="#" class="social-media-list__link"> <svg
-                                    class="social-media-list__icon" width="20" height="20">
+                        <li class="socials__item socials__item--dark"> <a href="#"
+                                class="socials__link socials__link--dark">
+                                <svg class="social-icons__image social-icons__image--dark" width="20" height="20">
                                     <use href="./images/icons.svg#icon-facebook-1"></use>
                                 </svg></a>
                         </li>
-                        <li class="social-media-list__icons"> <a href="#" class="social-media-list__link"> <svg
-                                    class="social-media-list__icon" width="20" height="20">
+                        <li class="socials__item socials__item--dark"> <a href="#"
+                                class="socials__link socials__link--dark">
+                                <svg class="social-icons__image social-icons__image--dark" width="20" height="20">
                                     <use href="./images/icons.svg#icon-linkedin-1"></use>
                                 </svg></a>
                         </li>
                     </ul>
                 </div>
-                <div class="subscription-field">
-                    <h2 class="subscription-field__title">Підпишіться на розсилку</h2>
-                    <form name="subscription-field__form">
-                        <div class="subscription-field__space">
-                            <label class="subscription-field__label" for="email">
-                                <input class="subscription-field__input" id="email" type="text" name="email"
+                <div class="subscription">
+                    <h2 class="subscription__title">Підпишіться на розсилку</h2>
+                    <form name="subscription__form">
+                        <div class="subscription__space">
+                            <label class="subscription__label" for="email">
+                                <input class="subscription__input" id="email" type="text" name="email"
                                     placeholder="E-mail" /></label>
                             <button class="primary-button primary-button__footer" type="submit"
                                 data-modal-open>Підписатися<svg class="form-button-icon" width="24" height="24">
